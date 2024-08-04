@@ -62,6 +62,7 @@ board = [[".",".",".","8",".",".",".","9","7"],[".","6",".","3",".",".",".",".",
 sol = SudokuSolution()
 sol.solveSudokuBoard(board)
 
+# To print output in a nicer format
 for board_row in board:
     print(board_row)
 
